@@ -2,7 +2,10 @@ package com.pluralsight;
 
 public class CellPhone {
 
-    private int serialNumber;   // a whole number, ex: 1000000 - 9999999
+    private int serialNumber;
+    
+
+    // a whole number, ex: 1000000 - 9999999
     private String model;       // ex: iPhone X
     private String carrier;     // ex: AT&T
     private String phoneNumber; // a String, not a number: it contains dashes, ex: 800-555-5555
@@ -57,6 +60,6 @@ public class CellPhone {
     }
 
     public void cellPhone1(String dial) {
-    this.cellPhone1("888-555-2222");
+        System.out.println("\n" + owner + "'s phone is calling" + number);
     }
 }
